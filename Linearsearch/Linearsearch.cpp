@@ -48,13 +48,13 @@ void LinearSearch()
 			comparisons++;
 			if (arr[i] == item) //Langkah 5A found
 			{
-				cout << "\n" << item << "found at position" << (i + 1) << endl;
+				cout << "\n" << item << " found at position " << (i + 1) << endl;
 				break;
 			}
 		}
 
 		if (i == n) //Langkah 58 not found
-			cout << "\n" << item << "not found in the array\n";
+			cout << "\n" << item << " not found in the array\n";
 		cout << "\nNumber of comparisons: " << comparisons << endl;
 
 		cout << "\nContinue search (y/n): ";
